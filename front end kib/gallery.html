@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body style="overflow-x: hidden;">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/main.css">
+<!-- Bootstrap NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+        <img src="./img/cover.jpg" class="rounded-circle img-responsive" style="width:60px;height:60px">
+        </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- NavBar END -->
+
+
+<!-- Bootstrap row -->
+    <!-- Sidebar -->
+    <section>
+  <div class="row">
+    <div class="bg-light border-right col-2 d-none d-lg-block " id="sidebar-wrapper">
+      <div class="sidebar-heading">
+        <h5 >@lang('Choose what Type of Service you want:')</h5>
+      </div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light">Service1</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Service2</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Service3</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Service4</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Service5</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Service6</a>
+      </div>
+    </div>
+
+
+        <div class="bg-light border-right col-2 d-block d-lg-none" id="sidebar-wrapper">
+    <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="background-color:#3544ab;color:white;border-color: #3544ab;">@lang('Choose what Type of Service you want:')
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Service1</a></li>
+    <li><a href="#">Service2</a></li>
+    <li><a href="#">Service3</a></li>
+    <li><a href="#">Service4</a></li>
+    <li><a href="#">Service5</a></li>
+    <li><a href="#">Service6</a></li>
+  </ul>
+</div>
+    </div>
+
+    <div class="col-lg-10 col-md-12" id="main" style="background-color:#d6d6d6;">
+      <div class="container">
+  <h1 class="text-center">Gallery</h1>
+        <div class="row">
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            
+        </div>
+        <div class="row" style="margin-top: 2%">
+                  <div class="card col-lg-4">
+  <img class="card-img-top img-responsive" src="./img/cover.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Service Name</h4>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <a id="service_button" href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+        <div class="card col-lg-4">
+  <img class="card-img-top img-responsive" src="./img/cover.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Service Name</h4>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <a id="service_button" href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+        <div class="card col-lg-4">
+  <img class="card-img-top img-responsive" src="./img/cover.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Service Name</h4>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <a id="service_button" href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+        </div>
+      
+                <div class="row" style="margin-top:2%">
+                  <div class="card col-lg-4">
+  <img class="card-img-top img-responsive" src="./img/cover.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Service Name</h4>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <a id="service_button" href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+        <div class="card col-lg-4">
+  <img class="card-img-top img-responsive" src="./img/cover.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Service Name</h4>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <a id="service_button" href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+        <div class="card col-lg-4">
+  <img class="card-img-top img-responsive" src="./img/cover.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Service Name</h4>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <a id="service_button" href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+        </div>
+
+                        <div class="row" style="margin-top:2%">
+                  <div class="card col-lg-4">
+  <img class="card-img-top img-responsive" src="./img/cover.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Service Name</h4>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <a id="service_button" href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+        <div class="card col-lg-4">
+  <img class="card-img-top img-responsive" src="./img/cover.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Service Name</h4>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <a id="service_button" href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+        <div class="card col-lg-4">
+  <img class="card-img-top img-responsive" src="./img/cover.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Service Name</h4>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <a id="service_button" href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+        </div>
+        </div>
+
+
+        </div>
+</div>
+    </div>
+
+
+</section>
+
+</body>
+
+<footer class="page-footer font-small blue pt-4" style="background-color:#3544ab;color:white">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-12 col-lg-3 mt-md-0 mt-3" style="margin-left:5%">
+
+          <!-- Content -->
+          <div class="row" style="margin-bottom:5%">
+          <h5 class="text-uppercase">About us</h5>  
+          </div>
+
+          <div class="row" style="margin-bottom:5%">
+            <img src="./img/cover.jpg" class="rounded-circle img-responsive" style="width:60px;height:60px">
+          </div>
+          
+          <div class="row" style="margin-bottom:5%">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-12 col-lg-3 mb-md-0 mb-3" style="margin-left:5%">
+
+            <!-- Links -->
+            <h5 class="text-uppercase">Links</h5>
+
+    
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" style="color: white;display:flex;margin-bottom:3%;font-weight:bold;">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" style="color: white;display:flex;margin-bottom:3%;font-weight:bold;">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" style="color: white;display:flex;margin-bottom:3%;font-weight:bold;">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" style="color: white;display:flex;margin-bottom:3%;font-weight:bold;">Link 4</a>
+              </li>
+              <li>
+                <a href="#!" style="color: white;display:flex;margin-bottom:3%;font-weight:bold;">Link 4</a>
+              </li>
+              <li>
+                <a href="#!" style="color: white;display:flex;margin-bottom:3%;font-weight:bold;">Link 4</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-12 col-lg-3 mb-md-0 mb-3" style="margin-left:5%">
+
+            <!-- Links -->
+            <div class="row">
+                  <h5 class="text-uppercase">Contact us</h5>
+            </div>
+        
+
+            <div class="row">
+           <div class="mapouter"><div class="gmap_canvas"><iframe width="250" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com">emojilib.com</a></div><style>.mapouter{position:relative;text-align:right;height:200px;width:250px;}.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:250px;}</style></div>
+
+          </div>
+
+          <div class="row">
+            <p id="email">
+              email@gmail.com
+            </p>
+          </div>
+
+          <div class="row">
+            <p id="phone">
+              +96300000000
+            </p>
+          </div>
+          <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+ 
+    <!-- Copyright -->
+
+  </footer>
+
+     <div style="background-color:#3544ab" class="footer">
+      <div class="container">
+        
+      
+      <div class="row" style="margin-left:4%">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+<i style="color:white;font-size:20px;margin-left:-5%;margin-right:2%" class="fab fa-facebook-square"></i>
+<i style="color:white;font-size:20px;" class="fab fa-twitter"></i>
+        </div>
+      <div class="col-lg-4 col-md-12 col-sm-12" style="color: white">All Rights Reserved To KIB ©2019
+  </div>
+      </div>
+      </div>
+    </div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            //$('.filter').removeClass('hidden');
+            $('.filter').show('1000');
+        }
+        else
+        {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+        }
+    });
+    
+    if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
+});
+
+    function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+</html>
